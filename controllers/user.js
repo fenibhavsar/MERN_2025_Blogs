@@ -41,7 +41,7 @@ export const logout = (req, res) => {
         expires: new Date(Date.now())
     }).json({
         success: true,
-        message: 'Logout Successfull!'
+        message: 'Logout Successfully!'
     })
 }
 

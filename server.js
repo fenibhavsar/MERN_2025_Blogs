@@ -30,9 +30,5 @@ app.use('/api/users',userRoter)
 // blogRouter
 app.use('/api/blogs',blogRouter)
 
-
 //MVC = MODEL VIEWS CONTROLLS
-
-
-
 app.listen(process.env.PORT, () => console.log(`Server is running on port ${process.env.PORT}`))
